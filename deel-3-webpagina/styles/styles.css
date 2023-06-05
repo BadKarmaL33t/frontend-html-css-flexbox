@@ -1,1 +1,88 @@
 /*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', 'Comic Sans MS', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #030027;
+    background-color: #F2F3D9;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #151E3F;
+    padding: 40px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: auto;
+    width: 500px;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    font-size: 18px;
+    /*border: 2px solid red;*/
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    /*border: 2px solid red;*/
+}
+
+.title-container {
+    text-align: center;
+    padding: 40px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    /*border: 2px solid red;*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 280px;
+    height: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*border: 2px solid red;*/
+    background-color: #C16E70;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.main-flex-container .article-container {
+    text-align: center;
+}
