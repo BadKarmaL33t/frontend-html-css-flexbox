@@ -39,7 +39,6 @@
 }
 
 .opdracht-5 .container {
-    /*border: 2px solid red;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,7 +46,6 @@
 }
 
 .opdracht-5 .container .container5-col {
-    /*border: 2px solid red;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +56,7 @@
     align-items: flex-start;
 }
 
-.opdracht-5 .container5-col:nth-of-type(3) {
+.opdracht-5 .container5-col:nth-of-type(2) {
     align-items: center;
 }
 
